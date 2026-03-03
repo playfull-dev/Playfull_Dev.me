@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const skillsBlock = document.getElementById('skills-block');
   const blenderBar = document.getElementById('blender-bar');
   const javaBar = document.getElementById('java-bar');
-  const cssBar = document.getElementById('css3-bar');
+  const unrealBar = document.getElementById('unreal-bar');
   const htmlBar = document.getElementById('html5-bar');
   const javascriptBar = document.getElementById('javascript-bar');
   const nodejsBar = document.getElementById('nodejs-bar');
@@ -355,7 +355,7 @@ document.addEventListener('DOMContentLoaded', () => {
           );
           gsap.to(blenderBar, { width: '75%', duration: 2, ease: 'power2.out' });
           gsap.to(javaBar, { width: '35%', duration: 2, ease: 'power2.out' });
-          gsap.to(cssBar, { width: '1%', duration: 2, ease: 'power2.out' });
+          gsap.to(unrealBar, { width: '1%', duration: 2, ease: 'power2.out' });
           gsap.to(htmlBar, { width: '65%', duration: 2, ease: 'power2.out' });
           gsap.to(javascriptBar, { width: '75%', duration: 2, ease: 'power2.out' });
           gsap.to(nodejsBar, { width: '70%', duration: 2, ease: 'power2.out' });
@@ -402,7 +402,7 @@ document.addEventListener('DOMContentLoaded', () => {
           );
           gsap.to(blenderBar, { width: '75%', duration: 2, ease: 'power2.out' });
           gsap.to(javaBar, { width: '35%', duration: 2, ease: 'power2.out' });
-          gsap.to(cssBar, { width: '1%', duration: 2, ease: 'power2.out' });
+          gsap.to(unrealBar, { width: '1%', duration: 2, ease: 'power2.out' });
           gsap.to(htmlBar, { width: '65%', duration: 2, ease: 'power2.out' });
           gsap.to(javascriptBar, { width: '45%', duration: 2, ease: 'power2.out' });
           gsap.to(nodejsBar, { width: '70%', duration: 2, ease: 'power2.out' });
