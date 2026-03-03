@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const glitchOverlay = document.querySelector('.glitch-overlay');
   const profileBlock = document.getElementById('profile-block');
   const skillsBlock = document.getElementById('skills-block');
-  const pythonBar = document.getElementById('python-bar');
+  const blenderBar = document.getElementById('blender-bar');
   const javaBar = document.getElementById('java-bar');
   const cssBar = document.getElementById('css3-bar');
   const htmlBar = document.getElementById('html5-bar');
@@ -353,7 +353,7 @@ document.addEventListener('DOMContentLoaded', () => {
             { x: 100, opacity: 0 },
             { x: 0, opacity: 1, duration: 0.5, ease: 'power2.out' }
           );
-          gsap.to(pythonBar, { width: '95%', duration: 2, ease: 'power2.out' });
+          gsap.to(blenderBar, { width: '75%', duration: 2, ease: 'power2.out' });
           gsap.to(javaBar, { width: '35%', duration: 2, ease: 'power2.out' });
           gsap.to(cssBar, { width: '1%', duration: 2, ease: 'power2.out' });
           gsap.to(htmlBar, { width: '65%', duration: 2, ease: 'power2.out' });
@@ -400,7 +400,7 @@ document.addEventListener('DOMContentLoaded', () => {
             { x: 100, opacity: 0 },
             { x: 0, opacity: 1, duration: 0.5, ease: 'power2.out' }
           );
-          gsap.to(pythonBar, { width: '75%', duration: 2, ease: 'power2.out' });
+          gsap.to(blenderBar, { width: '75%', duration: 2, ease: 'power2.out' });
           gsap.to(javaBar, { width: '35%', duration: 2, ease: 'power2.out' });
           gsap.to(cssBar, { width: '1%', duration: 2, ease: 'power2.out' });
           gsap.to(htmlBar, { width: '65%', duration: 2, ease: 'power2.out' });
